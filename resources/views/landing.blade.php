@@ -40,6 +40,6 @@
     <div class="button">
         <a class="btn btn-primary" href="/home" role="button">Get to Know more About Me!</a>
     </div>
-
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

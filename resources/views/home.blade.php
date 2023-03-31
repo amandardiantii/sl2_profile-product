@@ -11,8 +11,8 @@
 <body>
 
   {{-- NavBar --}}
-  <div class="navbar">
-    <nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="navbar1">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a href="/home"><img src="asset/logo.png"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,16 +24,25 @@
                 <a class="nav-link" href="/home">Home.</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about">About.</a>
+                <a class="nav-link" href="">About.</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact.</a>
+                <a class="nav-link" href="">Contact.</a>
               </li>
           </div>
         </div>
       </nav>
   </div>
 
+  {{-- Introduction --}}
+  <div class="intro">
+    <div class="intro_left">
+        
+    </div>
+    <div class="intro_right">
+
+    </div>
+  </div>
 
 </body>
 </html>
