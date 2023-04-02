@@ -54,13 +54,13 @@
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="2000">
-                <img src="asset/c1_1.png" class="d-block w-100" alt="..." id="ir1">
+                <img src="asset/c1_1.jpg" class="d-block w-100" alt="..." id="ir1">
               </div>
               <div class="carousel-item" data-bs-interval="2000">
-                <img src="asset/c1_2.png" class="d-block w-100" alt="...">
+                <img src="asset/c1_2.jpg" class="d-block w-100" alt="...">
               </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="asset/c1_3.png" class="d-block w-100" alt="...">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="asset/c1_1.jpg" class="d-block w-100" alt="..." id="ir1">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -288,7 +288,7 @@
                 <a href="https://www.instagram.com/amandardianti"><img src="asset/cm1.png" alt="" class="img_cm1"></a>
               </div>
               <div class="col">
-                <a href="href="https://www.tiktok.com/amandardianti""><img src="asset/cm2.png" alt="" class="img_cm2"></a>
+                <a href="href="https://www.tiktok.com/amandaardianti"><img src="asset/cm2.png" alt="" class="img_cm2"></a>
               </div>
             </div>
 
