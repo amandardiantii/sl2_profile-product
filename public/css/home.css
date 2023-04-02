@@ -127,3 +127,38 @@ body{
 .skill1>h5{
     font-size: 1.2vw;
 }
+
+/* Contact */
+.img_cm1{
+    width: 9vw;
+    display: flex;
+    float: right;
+    /* padding-right: 1vw; */
+    margin-top: 1vw;
+}
+
+.img_cm2{
+    width: 9vw;
+    /* padding-left: 1vw; */
+    margin-top: 1vw;
+}
+
+.img_cm1:hover{
+    filter: drop-shadow(5px 5px 5px #B9B6A6);
+}
+
+.img_cm2:hover{
+    filter: drop-shadow(5px 5px 5px #B9B6A6);
+}
+
+.contact_me{
+    background-color: #DACEC8;
+    margin-top: 10vw;
+    padding-bottom: 3vw;
+}
+
+.title_cm{
+    padding-top: 2vw;
+    font-weight: bold;
+    text-align: center;
+}

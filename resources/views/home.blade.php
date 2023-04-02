@@ -33,6 +33,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#skills">Skill.</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cm">Contact.</a>
+              </li>
           </div>
         </div>
       </nav>
@@ -276,6 +279,29 @@
         </div>
     </div>
 
+    {{-- Contact --}}
+    <div class="contact_me" id="cm">
+        <h1 class="title_cm">Contact Me</h1>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <a href="https://www.instagram.com/amandardianti"><img src="asset/cm1.png" alt="" class="img_cm1"></a>
+              </div>
+              <div class="col">
+                <a href="href="https://www.tiktok.com/amandardianti""><img src="asset/cm2.png" alt="" class="img_cm2"></a>
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <a href="https://www.linkedin.com/in/amanda-ardianti-56719b199?originalSubdomain=id""><img src="asset/cm3.png" alt="" class="img_cm1"></a>
+                </div>
+                <div class="col">
+                    <a href="https://mail.google.com/mail/u/0/?fs=1&to=amandaardianti03@gmail.com&tf=cm""><img src="asset/cm4.png" alt="" class="img_cm2"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     {{-- BATAS --}}
 </div>
