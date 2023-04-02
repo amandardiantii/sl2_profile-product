@@ -1,5 +1,6 @@
 body{
     max-height: 100%;
+    /* max-width: 100%; */
     background-color: #F6F1EE;
 }
 
@@ -73,4 +74,56 @@ body{
 .am_2{
     font-size: 1.2vw;
     padding: 0 8vw 0 8vw;
+}
+
+/* EDUCATION */
+#edu{
+    margin-top: 5vw;
+}
+
+#edu2{
+    margin-top: 3vw;
+}
+
+#edu3{
+    display: flex;
+    align-items: center;
+}
+
+#edu4{
+    display: flex;
+    align-items: center;
+}
+
+#edu5{
+    display: flex;
+    align-items: center;
+}
+
+/* SKILL */
+#skills {
+    margin-top: 7vw;
+}
+
+.skill {
+    background-color: #DACEC8;
+    margin-right: 8vw;
+    margin-left: 8vw;
+    margin-bottom: 5vw;
+    padding-bottom: 3vw;
+    padding-top: 2vw;
+    border-radius: 1.8vw;
+}
+
+.skill1{
+    padding: 1vw 2vw 0 2vw;
+    /* background-color: darkblue; */
+}
+
+.progress-bar {
+    background-color: #F6BB3C;
+}
+
+.skill1>h5{
+    font-size: 1.2vw;
 }

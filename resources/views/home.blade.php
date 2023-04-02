@@ -28,7 +28,10 @@
                 <a class="nav-link" href="#div1">About.</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Contact.</a>
+                <a class="nav-link" href="#edu">Education.</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skill.</a>
               </li>
           </div>
         </div>
@@ -80,7 +83,7 @@
             </div>
           </div>
           <div class="col">
-            <div data-aos="zoom-in">
+            <div data-aos="zoom-in" data-aos-delay="200">
                 <img src="asset/au_2.png" alt="" width="100%">
             </div>
           </div>
@@ -88,13 +91,19 @@
 
         <div class="row">
             <div class="col">
-                <img src="asset/au_3.png" alt="" width="100%">
+                <div data-aos="zoom-in" data-aos-delay="400">
+                    <img src="asset/au_3.png" alt="" width="100%">
+                </div>
             </div>
             <div class="col">
-                <img src="asset/au_4.png" alt="" width="100%">
+                <div data-aos="zoom-in" data-aos-delay="600">
+                    <img src="asset/au_4.png" alt="" width="100%">
+                </div>
             </div>
             <div class="col">
-                <img src="asset/au_5.png" alt="" width="100%">
+                <div data-aos="zoom-in" data-aos-delay="800">
+                    <img src="asset/au_5.png" alt="" width="100%">
+                </div>
             </div>
           </div>
       </div>
@@ -111,10 +120,169 @@
     <p class="am_2">
         When I’m not forehead deep in study or projects, I spend my free time painting in canvas, drawing, cooking, and being a movie enthusiast.
     </p>
-  </div>
+
+    {{-- Education --}}
+    <img src="asset/edu.png" alt="" width="100%" id="edu">
+    <div class="container" id="edu2">
+        <div class="row">
+            <div class="col">
+              <div data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1500">
+                  <img src="asset/edu_1.png" alt="" width="100%">
+              </div>
+            </div>
+            <div class="col" id="edu3">
+              <div data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000"">
+                  <h4>Elementary School</h4>
+                  <h2>SDK Penabur Depok</h2>
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+              <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1500">
+                <img src="asset/edu_2.png" alt="" width="100%">
+              </div>
+            </div>
+            <div class="col" id="edu4">
+              <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1500">
+                <h4>Junior High School - Senior High School</h4>
+                <h2>SMP - SMA Regina Pacis Bogor</h2>
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+              <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1500">
+                <img src="asset/edu_3.png" alt="" width="100%">
+              </div>
+            </div>
+            <div class="col" id="edu5">
+              <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1500">
+                <h4>College</h4>
+                <h2>Bina Nusantara University</h2>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Skill --}}
+    <img src="asset/skill.png" alt="" id="skills" width="100%">
+    <div data-aos="flip-up" data-aos-delay="1000" data-aos-duration="1500">
+        <div class="skill">
+            <div class="container">
+                {{-- row1 --}}
+                <div class="row">
+                  <div class="col">
+                    <div class="skill1">
+                        <h5>Graphic Design</h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="skill1">
+                        <h5>HTML</h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                {{-- row2 --}}
+                <div class="row">
+                    <div class="col">
+                      <div class="skill1">
+                          <h5>UI/UX Design</h5>
+                          <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="skill1">
+                          <h5>CSS</h5>
+                          <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+
+                {{-- row3 --}}
+                <div class="row">
+                    <div class="col">
+                      <div class="skill1">
+                          <h5>Figma</h5>
+                          <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="skill1">
+                          <h5>JavaScript</h5>
+                          <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+
+                {{-- row4 --}}
+                <div class="row">
+                    <div class="col">
+                      <div class="skill1">
+                          <h5>Photoshop</h5>
+                          <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="skill1">
+                          <h5>C</h5>
+                          <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+
+                {{-- row5 --}}
+                <div class="row">
+                    <div class="col">
+                      <div class="skill1">
+                          <h5>Premiere Pro</h5>
+                          <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="skill1">
+                          <h5>Bootstrap5</h5>
+                          <div class="progress">
+                              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    {{-- BATAS --}}
+</div>
 
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/home.js"></script>
   <script>
     AOS.init();
   </script>
