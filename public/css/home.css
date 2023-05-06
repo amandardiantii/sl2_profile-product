@@ -162,3 +162,17 @@ body{
     font-weight: bold;
     text-align: center;
 }
+/* PRODUCT */
+#po {
+    padding: 9vw 5vw 3vw 5vw;
+    background-color: #F6F1EE;
+}
+
+#prod_detail {
+    padding: 9vw 5vw 12vw 5vw;
+    background-color: #F6F1EE;
+}
+
+#back {
+    margin-bottom: 2vw;
+}
